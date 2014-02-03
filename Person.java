@@ -56,6 +56,10 @@ public class Person
         return children.size();
     }
     
+    public boolean hasBrothers() {
+        return (father.getNumberOfChildren() > 1);
+    }
+    
     
     
     
