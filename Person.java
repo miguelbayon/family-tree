@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Write a description of class Person here.
@@ -11,6 +12,7 @@ public class Person
     private int age;
     private Person father;
     private Person mother;
+    private ArrayList<Person> children;
 
     /**
      * Constructor for objects of class Person
@@ -19,6 +21,7 @@ public class Person
     {
         this.name = name;
         this.age = age;
+        children = new ArrayList<Person>();
     }
 
     public void showData() {
@@ -32,6 +35,10 @@ public class Person
     
     public void setMother(Person mother) {
         this.mother = mother;
+    }
+    
+    public void addChild(Person child) {
+        children.add(child);
     }
 
 }
