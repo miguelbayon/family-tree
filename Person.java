@@ -48,6 +48,9 @@ public class Person
         mother.showData();
     }
     
+    public boolean hasChildren() {
+        return (children.size() > 0);
+    }
     
     
     
