@@ -52,6 +52,10 @@ public class Person
         return (children.size() > 0);
     }
     
+    public int getNumberOfChildren() {
+        return children.size();
+    }
+    
     
     
     
