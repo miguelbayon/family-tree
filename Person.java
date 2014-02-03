@@ -19,5 +19,9 @@ public class Person
         this.age = age;
     }
 
+    public void showData() {
+        System.out.println("Nombre: " + name);
+        System.out.println("Edad: " + age);
+    }
 
 }
