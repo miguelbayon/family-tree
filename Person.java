@@ -9,6 +9,8 @@ public class Person
 {
     private String name;
     private int age;
+    private Person father;
+    private Person mother;
 
     /**
      * Constructor for objects of class Person
@@ -22,6 +24,14 @@ public class Person
     public void showData() {
         System.out.println("Nombre: " + name);
         System.out.println("Edad: " + age);
+    }
+    
+    public void setFather(Person father) {
+        this.father = father;
+    }
+    
+    public void setMother(Person mother) {
+        this.mother = mother;
     }
 
 }
