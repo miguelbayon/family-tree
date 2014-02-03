@@ -40,5 +40,19 @@ public class Person
     public void addChild(Person child) {
         children.add(child);
     }
+    
+    public void showParentsData() {
+        System.out.println("Datos del padre:");
+        father.showData();
+        System.out.println("Datos de la madre:");
+        mother.showData();
+    }
+    
+    
+    
+    
+    
+    
+    
 
 }
